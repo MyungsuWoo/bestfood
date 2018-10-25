@@ -6,5 +6,3 @@ CREATE TABLE IF NOT EXISTS bestfood_info_image (
 	reg_date timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY(seq)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-SELECT * FROM bestfood_info_image;
